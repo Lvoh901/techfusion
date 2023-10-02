@@ -3,13 +3,10 @@ import myLogo from '../images/logo.png';
 
 const Navbar = () => {
     return (
-        <div className="navigation-bar container">
+        <div className="navigation-bar container-fluid">
             <nav className="navbar">
-                <ul className="logo">
+                <ul className="nav-bar">
                     <img src={myLogo} alt="logo" />
-                </ul>
-
-                <ul className="navlinks">
                     <NavLink exact to="/" >Blog</NavLink>
                     <NavLink to="/upcoming" >Upcoming</NavLink>
                 </ul>

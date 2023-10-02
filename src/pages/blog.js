@@ -1,9 +1,16 @@
 import React from "react";
+import Main from './main';
 
 const Blog = () => {
     return (
-        <div className="navigation-bar">
-            <h1>Blog01</h1>
+        <div>
+            <h5 className="card-title fw-bold">TechFusion</h5>
+
+            <Main 
+                category="01"
+                title="Operation Truce"
+                imageSrc=""
+            />
         </div>
     );
 }
